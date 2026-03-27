@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da Cidade">
+        
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" alt="busca" src="https://www.svgrepo.com/show/507849/search.svg">
+        </button>
+
+        <button class="botao-reset" onclick="resetarCards()">
+            Reset
+        </button>
+    </div>
+
+    <div class="container-cards" id="container-cards">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
